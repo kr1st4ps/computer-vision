@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-import time
 
 #   Function that takes an image and proceses it to binary format and turns into an array to be used for classifiaction
 def process_img(img):
