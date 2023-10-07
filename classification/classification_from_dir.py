@@ -48,6 +48,10 @@ for arg in sys.argv[1:]:
 target_dir = paths.pop()
 source_dirs = paths
 
+for c in class_names:
+    path_check = os.path.join(target_dir, c)
+    if not os.path.isdir(path_check):
+        os.makedirs(path_check)
 
 if __name__ == "__main__":
 
