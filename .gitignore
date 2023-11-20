@@ -2,3 +2,10 @@
 
 classification/.DS_Store
 classification/finger_count.h5
+classification/fingers_model_best.h5
+classification/timetest.py
+classification/utils/__pycache__/
+
+detection/basket-counter/runs/detect
+detection/basket-counter/txt_modify.py
+detection/basket-counter/dataset_creator.py
